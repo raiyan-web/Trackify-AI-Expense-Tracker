@@ -17,6 +17,10 @@ app.add_middleware(
 )
 
 # Health check
+@app.get("/")
+async def root():
+    return {"status": "ok", "message": "Trackify API is running"}
+
 @app.get("/health")
 async def health_check():
     return {"status": "ok", "message": "Trackify API is running"}
@@ -78,7 +82,7 @@ async def get_expenses():
 # Mock monthly report
 @app.get("/api/reports/monthly")
 async def monthly_report(month: int = 4, year: int = 2024):
-    """Get monthly spending report"""
+    """Get monthly spending report - mock endpoint"""
     return {
         "status": "success",
         "data": {
@@ -92,6 +96,9 @@ async def monthly_report(month: int = 4, year: int = 2024):
             }
         }
     }
-app.include_router(receipts.router, prefix="/api/receipts", tags=["receipts"])
-app.include_router(expenses.router, prefix="/api/expenses", tags=["expenses"])
-app.include_router(reports.router, prefix="/api/reports", tags=["reports"])
+
+# Commented out - these require database and auth
+# Uncomment after setting up PostgreSQL and authentication
+# app.include_router(receipts.router, prefix="/api/receipts", tags=["receipts"])
+# app.include_router(expenses.router, prefix="/api/expenses", tags=["expenses"])
+# app.include_router(reports.router, prefix="/api/reports", tags=["reports"])
