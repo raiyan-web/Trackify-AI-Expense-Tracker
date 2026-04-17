@@ -1,0 +1,101 @@
+booking_id,customer_id,driver_id,booking_timestamp,pickup_location,dropoff_location,pickup_lat,pickup_lng,ride_category,estimated_wait_time,actual_wait_time,estimated_fare,surge_multiplier,driver_rating,customer_rating,ride_status,cancellation_reason,cancellation_time_sec,trip_distance_km,payment_method,customer_satisfaction,is_repeat_customer,day_of_week,hour_of_day,weather_condition,city
+BK-20250506-001,CUST-3859,DRV-3615,2025-05-06 08:07:36,Koramangala,Hebbal,19.5196,74.884,UberGo,2,7,142.7,1.1,3.1,3.8,Completed,,,15.9,Wallet,5,True,Tuesday,8,Clear,Bangalore
+BK-20250217-002,CUST-1933,,2025-02-17 13:49:57,Juhu,Bandra,25.0918,80.1892,UberGo,10,,50.55,1.4,3.2,4.9,No_Driver,No driver available,,3.7,Debit Card,,True,Monday,13,Cloudy,Mumbai
+BK-20250523-003,CUST-1938,DRV-1916,2025-05-23 16:30:29,Bandra,Worli,25.8667,78.8378,UberPool,12,12,79.2,1.0,4.3,4.4,Completed,,,6.4,Cash,4,True,Friday,16,Clear,Mumbai
+BK-20250419-004,CUST-1192,,2025-04-19 20:39:01,Airport,Gachibowli,26.4915,73.9463,UberPremier,9,17,637.52,2.5,3.3,3.7,Cancelled_Customer,Fare too high,535,22.7,Cash,,False,Saturday,20,Cloudy,Hyderabad
+BK-20250717-005,CUST-4565,DRV-2743,2025-07-17 13:53:39,Lower Parel,Bandra,22.7423,79.1125,UberPool,12,20,419.37,2.6,4.4,4.5,Cancelled_Customer,Booked by mistake,212,16.8,UPI,,True,Thursday,13,Cloudy,Mumbai
+BK-20250320-006,CUST-4115,DRV-2133,2025-03-20 13:36:49,Mylapore,OMR,21.27,73.7432,UberPremier,7,5,164.16,1.0,4.0,3.7,Completed,,,11.8,Credit Card,3,True,Thursday,13,Rainy,Chennai
+BK-20250516-007,CUST-1029,DRV-4608,2025-05-16 19:12:43,LB Nagar,Banjara Hills,13.9288,77.5333,UberPremier,5,10,274.24,1.3,4.4,4.1,Completed,,,20.6,Cash,5,True,Friday,19,Rainy,Hyderabad
+BK-20250619-008,CUST-1248,DRV-2612,2025-06-19 02:34:47,Bandra,Andheri,19.2017,75.3448,UberPool,11,8,187.96,1.2,4.2,3.9,Completed,,,15.0,Cash,4,True,Thursday,2,Clear,Mumbai
+BK-20250408-009,CUST-1875,DRV-8886,2025-04-08 19:31:32,MG Road,Electronic City,26.5479,79.5683,UberGo,9,8,117.82,2.3,4.6,4.8,Completed,,,4.3,UPI,4,False,Tuesday,19,Cloudy,Bangalore
+BK-20250719-010,CUST-1644,DRV-9701,2025-07-19 09:39:20,Lower Parel,Andheri,13.7044,76.6087,UberXL,14,23,80.78,1.4,4.1,4.6,Cancelled_Customer,Driver too far,518,5.9,Wallet,,False,Saturday,9,Foggy,Mumbai
+BK-20251212-011,CUST-1038,DRV-2188,2025-12-12 08:33:48,Bandra,Powai,20.0867,80.2884,UberGo,3,5,223.18,1.0,3.8,4.4,Completed,,,16.4,Debit Card,4,True,Friday,8,Clear,Mumbai
+BK-20250420-012,CUST-2083,DRV-3200,2025-04-20 18:25:07,Whitefield,BTM Layout,14.6353,73.6028,UberGo,4,2,140.42,1.0,3.9,4.3,Completed,,,10.1,Wallet,2,True,Sunday,18,Rainy,Bangalore
+BK-20250525-013,CUST-3297,DRV-8007,2025-05-25 22:01:16,Adyar,Velachery,12.9537,73.3643,UberGo,6,5,51.86,1.2,4.8,4.8,Completed,,,4.1,UPI,3,True,Sunday,22,Clear,Chennai
+BK-20250709-014,CUST-4610,DRV-3900,2025-07-09 21:12:30,Thane,Andheri,19.3555,74.1452,UberPool,15,18,602.0,2.4,3.1,4.0,Cancelled_Customer,Fare too high,196,20.9,Wallet,,False,Wednesday,21,Clear,Mumbai
+BK-20250517-015,CUST-2356,DRV-9785,2025-05-17 05:47:46,Karol Bagh,Airport,27.7339,73.6651,UberPremier,15,20,329.38,1.0,4.8,4.0,Cancelled_Customer,Booked by mistake,551,24.9,Credit Card,,True,Saturday,5,Clear,Delhi
+BK-20250120-016,CUST-4886,DRV-2146,2025-01-20 03:56:48,Dwarka,Lajpat Nagar,23.3614,75.2765,UberPool,3,4,269.56,2.5,3.8,4.4,Completed,,,8.8,Wallet,4,False,Monday,3,Clear,Delhi
+BK-20250917-017,CUST-3767,DRV-8244,2025-09-17 11:15:38,Saket,Lajpat Nagar,16.1979,76.3489,UberPool,12,14,318.05,1.0,4.9,4.5,Completed,,,27.2,Wallet,4,False,Wednesday,11,Clear,Delhi
+BK-20250921-018,CUST-1604,DRV-4997,2025-09-21 23:02:40,Bandra,Juhu,23.2313,72.8416,UberPool,14,17,92.23,1.0,3.4,3.5,Completed,,,8.5,UPI,4,True,Sunday,23,Rainy,Mumbai
+BK-20250401-019,CUST-4046,DRV-3607,2025-04-01 18:51:29,Airport,MG Road,26.4978,76.1755,UberGo,9,14,253.45,1.0,4.3,5.0,Completed,,,18.5,Wallet,4,False,Tuesday,18,Rainy,Bangalore
+BK-20250906-020,CUST-4706,DRV-7381,2025-09-06 22:49:09,Airport,Navi Mumbai,25.0398,79.8955,UberGo,10,10,110.57,1.0,3.2,3.7,Completed,,,12.4,Cash,3,True,Saturday,22,Clear,Mumbai
+BK-20250902-021,CUST-4766,DRV-8657,2025-09-02 00:12:52,BTM Layout,Airport,14.8293,77.4669,UberXL,10,13,313.82,1.8,4.5,4.3,Completed,,,18.7,Cash,3,True,Tuesday,0,Clear,Bangalore
+BK-20250212-022,CUST-1918,DRV-6733,2025-02-12 23:24:06,Airport,Koramangala,23.1373,78.6592,UberGo,9,6,153.9,1.0,3.7,4.6,Completed,,,12.3,Debit Card,1,False,Wednesday,23,Rainy,Bangalore
+BK-20250413-023,CUST-1311,DRV-4249,2025-04-13 00:44:31,Koramangala,Electronic City,22.2144,79.0293,UberPool,9,13,161.38,2.2,4.4,4.7,Cancelled_Customer,Driver too far,414,6.3,UPI,,False,Sunday,0,Cloudy,Bangalore
+BK-20251217-024,CUST-3137,,2025-12-17 21:51:37,Bandra,Juhu,28.151,74.8256,UberPremier,12,14,205.37,1.4,3.7,4.3,Cancelled_Driver,Customer asked to cancel,475,11.2,UPI,,True,Wednesday,21,Rainy,Mumbai
+BK-20250812-025,CUST-3276,DRV-5526,2025-08-12 21:34:16,Guindy,Nungambakkam,12.9614,79.9105,UberGo,5,7,390.22,1.9,4.5,4.4,Completed,,,20.5,Debit Card,5,True,Tuesday,21,Clear,Chennai
+BK-20250908-026,CUST-2109,DRV-8434,2025-09-08 20:12:48,MG Road,Jayanagar,17.6753,74.529,UberPremier,3,6,191.26,1.9,3.6,4.1,Completed,,,8.4,Wallet,4,True,Monday,20,Clear,Bangalore
+BK-20251002-027,CUST-3612,DRV-3068,2025-10-02 06:44:27,Juhu,Bandra,26.6085,76.4816,UberGo,11,19,111.44,1.7,3.6,3.7,Cancelled_Customer,Driver too far,329,7.0,UPI,,False,Thursday,6,Clear,Mumbai
+BK-20250829-028,CUST-2845,DRV-7232,2025-08-29 17:25:46,BTM Layout,Electronic City,27.2452,75.0301,UberGo,15,24,216.92,1.0,3.1,4.2,Cancelled_Customer,Driver asked to cancel,261,17.9,Wallet,,False,Friday,17,Clear,Bangalore
+BK-20251019-029,CUST-2180,,2025-10-19 22:36:39,Tambaram,Airport,24.0406,78.0724,UberGo,6,,82.39,1.5,4.3,3.7,No_Driver,No driver available,,6.5,Cash,,False,Sunday,22,Clear,Chennai
+BK-20250516-030,CUST-3049,DRV-5460,2025-05-16 22:45:27,Gachibowli,Airport,21.3857,76.0832,UberPool,4,5,31.48,1.0,4.8,4.7,Completed,,,3.5,Wallet,4,False,Friday,22,Clear,Hyderabad
+BK-20250615-031,CUST-4969,DRV-9056,2025-06-15 21:58:49,T Nagar,Guindy,14.2508,75.4097,UberGo,2,5,83.4,1.1,5.0,4.5,Completed,,,9.2,Cash,4,True,Sunday,21,Rainy,Chennai
+BK-20250324-032,CUST-2481,,2025-03-24 12:00:28,Lajpat Nagar,Saket,22.6999,76.5387,UberGo,2,8,280.98,1.9,3.9,4.0,Cancelled_Driver,Customer asked to cancel,85,10.7,Wallet,,False,Monday,12,Clear,Delhi
+BK-20250517-033,CUST-3041,DRV-3522,2025-05-17 19:59:47,Hitech City,Airport,27.6292,74.989,UberGo,12,10,67.83,1.0,4.2,3.9,Completed,,,6.0,UPI,4,True,Saturday,19,Cloudy,Hyderabad
+BK-20250830-034,CUST-3206,DRV-8316,2025-08-30 08:52:26,Karol Bagh,Noida,20.501,75.2933,UberGo,4,13,302.1,1.2,4.7,3.9,Cancelled_Driver,Route not preferred,531,24.0,Wallet,,True,Saturday,8,Foggy,Delhi
+BK-20250614-035,CUST-4729,,2025-06-14 06:52:07,Tambaram,Nungambakkam,20.0652,78.2183,UberXL,7,8,253.79,1.0,4.5,4.6,Cancelled_Customer,Long wait time,480,24.6,Credit Card,,True,Saturday,6,Cloudy,Chennai
+BK-20250829-036,CUST-4114,DRV-2612,2025-08-29 09:38:57,Banjara Hills,Gachibowli,22.8766,79.3443,UberGo,15,18,491.15,1.9,4.1,4.9,Cancelled_Customer,Booked by mistake,122,19.4,Wallet,,True,Friday,9,Clear,Hyderabad
+BK-20250115-037,CUST-2882,DRV-5161,2025-01-15 01:40:28,Banjara Hills,Ameerpet,16.8597,72.8705,UberGo,8,8,53.39,1.0,4.1,4.7,Completed,,,6.3,Wallet,4,False,Wednesday,1,Rainy,Hyderabad
+BK-20250322-038,CUST-2124,DRV-7484,2025-03-22 02:41:21,Airport,Jubilee Hills,12.9288,79.288,UberGo,6,7,393.6,1.0,3.9,4.0,Completed,,,30.0,Cash,5,True,Saturday,2,Clear,Hyderabad
+BK-20250527-039,CUST-2338,DRV-5835,2025-05-27 08:22:42,BTM Layout,Jayanagar,24.6849,74.1173,UberPool,13,12,55.62,1.2,4.5,4.5,Completed,,,5.4,UPI,5,True,Tuesday,8,Cloudy,Bangalore
+BK-20250929-040,CUST-1057,DRV-7464,2025-09-29 18:16:11,Thane,Juhu,17.0049,73.7269,UberXL,14,19,263.76,1.0,3.6,4.8,Completed,,,24.4,Credit Card,4,False,Monday,18,Clear,Mumbai
+BK-20251123-041,CUST-1555,DRV-9807,2025-11-23 13:31:29,Nehru Place,Rohini,18.9795,75.5826,UberGo,11,12,403.69,1.2,3.4,3.6,Cancelled_Customer,Wrong pickup location entered,129,25.0,Cash,,True,Sunday,13,Clear,Delhi
+BK-20250801-042,CUST-4887,DRV-3001,2025-08-01 23:50:41,Tambaram,Adyar,26.2837,76.2104,UberGo,7,10,83.44,1.0,3.4,4.2,Completed,,,8.2,Debit Card,5,True,Friday,23,Foggy,Chennai
+BK-20250126-043,CUST-1450,DRV-3858,2025-01-26 12:08:33,Navi Mumbai,Andheri,23.3108,72.9934,UberGo,5,4,184.38,1.8,4.2,4.7,Completed,,,8.1,Wallet,4,True,Sunday,12,Rainy,Mumbai
+BK-20251029-044,CUST-1249,DRV-1510,2025-10-29 11:47:17,Hebbal,MG Road,28.6775,79.1547,UberGo,3,5,139.33,1.0,4.0,4.7,Completed,,,16.1,Wallet,4,True,Wednesday,11,Cloudy,Bangalore
+BK-20251231-045,CUST-2761,DRV-4522,2025-12-31 16:08:58,Gachibowli,LB Nagar,19.9797,74.5137,UberGo,12,22,143.65,1.0,4.2,4.6,Cancelled_Driver,Vehicle issue,594,12.4,Wallet,,True,Wednesday,16,Clear,Hyderabad
+BK-20250801-046,CUST-2448,DRV-7730,2025-08-01 03:27:43,Rohini,Karol Bagh,26.6904,79.8585,UberGo,9,11,43.24,1.2,3.1,4.7,Completed,,,4.2,Credit Card,4,True,Friday,3,Cloudy,Delhi
+BK-20251104-047,CUST-1118,DRV-5381,2025-11-04 11:22:33,Hitech City,Ameerpet,15.6686,78.0702,UberGo,3,1,46.42,1.0,3.7,4.3,Completed,,,4.8,Cash,4,False,Tuesday,11,Clear,Hyderabad
+BK-20250104-048,CUST-1644,DRV-3549,2025-01-04 06:36:17,Lajpat Nagar,Karol Bagh,24.7955,73.1732,UberPremier,2,1,170.05,1.3,3.2,4.3,Completed,,,12.2,Debit Card,2,False,Saturday,6,Clear,Delhi
+BK-20251205-049,CUST-2234,,2025-12-05 15:26:16,Electronic City,Marathahalli,27.8307,78.5551,UberGo,8,,205.37,1.0,3.2,4.5,No_Driver,No driver available,,18.4,Credit Card,,True,Friday,15,Clear,Bangalore
+BK-20250303-050,CUST-2185,DRV-7843,2025-03-03 00:16:53,Nehru Place,Karol Bagh,14.6313,72.9564,UberGo,10,19,47.41,1.0,4.7,4.7,Cancelled_Customer,Driver asked to cancel,444,3.6,UPI,,True,Monday,0,Clear,Delhi
+BK-20251220-051,CUST-1967,DRV-3419,2025-12-20 13:10:28,Dwarka,Noida,14.4346,74.7198,UberGo,8,10,138.41,1.4,4.7,4.6,Completed,,,7.8,UPI,3,True,Saturday,13,Clear,Delhi
+BK-20251202-052,CUST-2271,DRV-2215,2025-12-02 02:44:36,Navi Mumbai,Powai,20.1417,73.0821,UberGo,9,13,496.08,1.8,4.4,4.8,Cancelled_Customer,Booked by mistake,87,19.8,Debit Card,,True,Tuesday,2,Clear,Mumbai
+BK-20251127-053,CUST-3066,DRV-2381,2025-11-27 03:17:15,Nehru Place,Saket,23.0734,73.0936,UberPool,2,7,359.24,1.8,3.9,4.7,Completed,,,20.1,Credit Card,5,False,Thursday,3,Clear,Delhi
+BK-20250925-054,CUST-4754,DRV-3317,2025-09-25 22:12:08,Madhapur,Jubilee Hills,18.3622,80.0577,UberGo,11,10,109.76,1.0,3.1,4.4,Completed,,,11.0,Cash,5,True,Thursday,22,Cloudy,Hyderabad
+BK-20250608-055,CUST-1316,DRV-3538,2025-06-08 20:20:59,Banjara Hills,Gachibowli,17.5031,78.7109,UberGo,13,16,95.94,1.9,5.0,4.9,Cancelled_Customer,Wrong pickup location entered,261,4.2,UPI,,True,Sunday,20,Cloudy,Hyderabad
+BK-20250120-056,CUST-2267,DRV-4918,2025-01-20 12:15:40,Nungambakkam,Mylapore,28.153,78.6828,UberPremier,13,17,65.88,1.0,4.5,4.7,Completed,,,6.2,Credit Card,5,False,Monday,12,Clear,Chennai
+BK-20250825-057,CUST-2840,DRV-5469,2025-08-25 10:15:32,Juhu,Thane,27.1944,73.9051,UberPremier,11,9,262.25,1.0,3.3,3.9,Completed,,,19.8,UPI,3,False,Monday,10,Cloudy,Mumbai
+BK-20250819-058,CUST-2837,DRV-8685,2025-08-19 12:43:40,Gachibowli,Airport,22.584,79.5939,UberXL,3,3,364.98,1.0,3.7,3.5,Completed,,,28.0,Credit Card,3,True,Tuesday,12,Cloudy,Hyderabad
+BK-20250318-059,CUST-1985,DRV-6780,2025-03-18 19:58:52,Electronic City,MG Road,21.8736,74.2049,UberXL,3,5,258.9,1.0,3.1,4.1,Cancelled_Customer,Changed plans,328,24.1,Cash,,True,Tuesday,19,Clear,Bangalore
+BK-20250204-060,CUST-1546,DRV-6447,2025-02-04 19:09:11,Marathahalli,Hebbal,13.5049,76.8951,UberPool,2,5,126.81,1.8,4.3,5.0,Completed,,,8.7,Debit Card,3,True,Tuesday,19,Rainy,Bangalore
+BK-20251120-061,CUST-4546,DRV-1783,2025-11-20 06:38:11,Worli,Thane,23.2261,74.8491,UberPremier,2,3,103.53,1.0,4.6,4.8,Completed,,,10.5,Wallet,4,True,Thursday,6,Clear,Mumbai
+BK-20250814-062,CUST-1682,DRV-7981,2025-08-14 14:04:38,Karol Bagh,Rohini,23.7673,75.4366,UberGo,6,10,81.65,1.9,4.6,4.6,Cancelled_Customer,Booked by mistake,486,3.7,Wallet,,True,Thursday,14,Rainy,Delhi
+BK-20250521-063,CUST-3478,DRV-1530,2025-05-21 23:16:56,Hebbal,Jayanagar,15.2397,76.1744,UberXL,14,19,31.42,1.0,4.5,3.7,Cancelled_Driver,Too much traffic,422,2.4,Cash,,True,Wednesday,23,Cloudy,Bangalore
+BK-20250209-064,CUST-1303,,2025-02-09 20:53:45,Lajpat Nagar,Noida,19.9875,79.5401,UberGo,2,5,341.1,2.4,4.5,4.2,Cancelled_Customer,Wrong pickup location entered,155,12.5,Debit Card,,False,Sunday,20,Clear,Delhi
+BK-20251208-065,CUST-3506,DRV-3126,2025-12-08 12:38:57,Gachibowli,Kukatpally,26.8595,73.2931,UberPool,13,21,266.37,1.0,4.9,4.5,Cancelled_Customer,Long wait time,407,24.1,Credit Card,,False,Monday,12,Clear,Hyderabad
+BK-20250730-066,CUST-1674,DRV-5982,2025-07-30 14:54:25,Madhapur,Jubilee Hills,15.3753,79.8105,UberPremier,12,10,283.83,1.0,4.0,3.7,Completed,,,25.1,Credit Card,4,True,Wednesday,14,Cloudy,Hyderabad
+BK-20250526-067,CUST-1332,DRV-1464,2025-05-26 02:52:16,Juhu,Navi Mumbai,13.5228,77.6109,UberGo,10,7,211.3,1.0,3.2,4.5,Completed,,,18.4,Wallet,3,False,Monday,2,Clear,Mumbai
+BK-20251020-068,CUST-4528,DRV-6121,2025-10-20 15:10:02,Airport,OMR,24.222,78.3065,UberPool,6,8,226.02,1.1,4.0,4.7,Completed,,,21.0,UPI,4,True,Monday,15,Clear,Chennai
+BK-20250709-069,CUST-3108,DRV-9163,2025-07-09 18:44:59,Karol Bagh,Dwarka,20.2224,79.3931,UberPool,3,4,274.28,1.0,3.1,4.9,Completed,,,26.1,Credit Card,3,False,Wednesday,18,Foggy,Delhi
+BK-20250721-070,CUST-2484,DRV-4189,2025-07-21 18:24:09,Hitech City,Banjara Hills,21.5962,73.3515,UberGo,11,16,167.18,1.0,4.8,4.5,Cancelled_Customer,Driver asked to cancel,76,14.9,Cash,,True,Monday,18,Rainy,Hyderabad
+BK-20250524-071,CUST-4658,,2025-05-24 22:41:29,Guindy,Mylapore,20.9965,75.2597,UberPool,7,15,130.09,2.0,4.1,4.0,Cancelled_Customer,Wrong pickup location entered,497,5.6,UPI,,True,Saturday,22,Clear,Chennai
+BK-20250721-072,CUST-4961,DRV-5350,2025-07-21 22:26:45,Velachery,Adyar,23.2239,80.0904,UberPool,13,10,23.97,1.2,4.1,4.2,Completed,,,2.0,Cash,4,True,Monday,22,Clear,Chennai
+BK-20250127-073,CUST-4575,DRV-8726,2025-01-27 21:14:43,Mylapore,OMR,26.2892,78.2555,UberGo,15,20,246.79,1.0,4.4,3.5,Completed,,,28.5,Debit Card,3,True,Monday,21,Clear,Chennai
+BK-20251015-074,CUST-3827,DRV-4396,2025-10-15 11:50:04,Thane,Dadar,24.0093,75.1778,UberXL,10,13,289.65,1.0,3.7,4.0,Cancelled_Customer,Booked by mistake,334,23.5,Debit Card,,True,Wednesday,11,Cloudy,Mumbai
+BK-20250528-075,CUST-1562,DRV-5450,2025-05-28 04:26:14,Noida,Nehru Place,14.5367,78.3567,UberPool,14,19,119.16,1.0,4.6,3.9,Completed,,,9.7,Cash,5,False,Wednesday,4,Clear,Delhi
+BK-20251209-076,CUST-3671,DRV-2465,2025-12-09 19:20:04,Dadar,Andheri,21.9287,76.8136,UberGo,12,16,233.48,1.0,4.5,3.5,Cancelled_Driver,Too much traffic,90,17.2,Cash,,True,Tuesday,19,Clear,Mumbai
+BK-20250401-077,CUST-2117,DRV-8668,2025-04-01 01:19:23,Indiranagar,Jayanagar,15.8657,73.6449,UberXL,6,5,443.69,2.9,4.8,3.5,Completed,,,17.7,Debit Card,2,True,Tuesday,1,Foggy,Bangalore
+BK-20250406-078,CUST-4087,DRV-8319,2025-04-06 00:30:46,Worli,Airport,17.0452,75.2722,UberPool,15,15,136.56,1.0,4.3,4.1,Cancelled_Customer,Changed plans,297,13.7,UPI,,True,Sunday,0,Clear,Mumbai
+BK-20250514-079,CUST-2703,DRV-7121,2025-05-14 23:47:59,Mylapore,T Nagar,23.9609,79.646,UberGo,12,16,213.1,1.0,4.0,4.8,Completed,,,21.6,Debit Card,5,True,Wednesday,23,Clear,Chennai
+BK-20251215-080,CUST-1372,DRV-9008,2025-12-15 21:41:34,OMR,Airport,27.0923,76.1411,UberPremier,11,11,250.59,1.0,3.2,4.7,Completed,,,27.2,Credit Card,3,True,Monday,21,Cloudy,Chennai
+BK-20250920-081,CUST-4136,DRV-3218,2025-09-20 15:07:30,Jayanagar,Indiranagar,23.0002,78.2697,UberGo,8,8,71.47,1.1,3.5,3.5,Cancelled_Driver,Customer asked to cancel,323,7.7,UPI,,True,Saturday,15,Clear,Bangalore
+BK-20250818-082,CUST-4372,DRV-7214,2025-08-18 13:44:39,Ameerpet,Madhapur,16.4517,76.2547,UberGo,7,12,155.83,1.4,3.2,5.0,Completed,,,12.7,UPI,4,False,Monday,13,Foggy,Hyderabad
+BK-20250227-083,CUST-1573,DRV-1924,2025-02-27 01:10:22,Airport,Dadar,20.8119,74.9695,UberPremier,5,5,170.86,1.0,3.1,4.4,Completed,,,14.2,Credit Card,3,False,Thursday,1,Rainy,Mumbai
+BK-20250502-084,CUST-3852,DRV-6222,2025-05-02 10:59:12,Velachery,Tambaram,19.4196,73.9191,UberPremier,10,13,323.29,1.0,4.9,4.8,Completed,,,27.5,Cash,3,True,Friday,10,Clear,Chennai
+BK-20250831-085,CUST-1211,DRV-4120,2025-08-31 08:46:24,Banjara Hills,Jubilee Hills,17.0685,77.8525,UberPremier,10,8,480.16,2.8,3.8,4.1,Completed,,,16.6,Debit Card,4,True,Sunday,8,Clear,Hyderabad
+BK-20250407-086,CUST-2559,DRV-5637,2025-04-07 21:23:35,T Nagar,Adyar,20.2134,77.6654,UberPool,2,2,282.08,1.0,3.4,3.8,Completed,,,22.6,Credit Card,4,False,Monday,21,Rainy,Chennai
+BK-20250920-087,CUST-1942,DRV-6404,2025-09-20 18:06:19,Nehru Place,Karol Bagh,18.8395,79.0502,UberGo,5,6,163.23,1.0,3.7,4.1,Completed,,,17.5,Debit Card,5,True,Saturday,18,Clear,Delhi
+BK-20250512-088,CUST-1563,DRV-7756,2025-05-12 17:47:24,LB Nagar,Ameerpet,26.1965,74.5358,UberXL,4,1,160.83,1.8,3.3,4.3,Completed,,,6.7,UPI,3,True,Monday,17,Foggy,Hyderabad
+BK-20250916-089,CUST-1394,,2025-09-16 16:36:10,Andheri,Airport,21.1377,74.6073,UberGo,9,15,106.92,1.0,3.0,4.3,Cancelled_Driver,Vehicle issue,213,13.2,Wallet,,False,Tuesday,16,Cloudy,Mumbai
+BK-20250701-090,CUST-3047,DRV-2354,2025-07-01 09:43:58,Nungambakkam,Airport,26.2407,77.6368,UberPremier,13,23,306.41,1.0,3.5,4.5,Cancelled_Customer,Driver too far,39,25.7,UPI,,True,Tuesday,9,Rainy,Chennai
+BK-20250928-091,CUST-1665,DRV-5903,2025-09-28 01:32:57,Gurgaon,Saket,21.7669,77.0502,UberGo,3,7,203.13,1.0,4.4,3.9,Completed,,,17.0,Debit Card,2,True,Sunday,1,Clear,Delhi
+BK-20250716-092,CUST-3265,DRV-6829,2025-07-16 05:05:43,LB Nagar,Ameerpet,27.7642,76.0389,UberPremier,3,8,141.28,1.0,3.9,4.8,Completed,,,11.2,Cash,4,False,Wednesday,5,Foggy,Hyderabad
+BK-20251113-093,CUST-2671,DRV-9395,2025-11-13 10:45:15,Tambaram,Anna Nagar,14.4424,73.4721,UberPremier,12,18,141.23,1.4,3.3,4.1,Cancelled_Customer,Fare too high,489,11.8,Cash,,True,Thursday,10,Foggy,Chennai
+BK-20250717-094,CUST-3952,DRV-5040,2025-07-17 00:26:57,Anna Nagar,Tambaram,22.738,77.2535,UberGo,5,12,317.64,2.9,4.1,3.8,Cancelled_Customer,Booked by mistake,108,12.4,Cash,,True,Thursday,0,Clear,Chennai
+BK-20250311-095,CUST-2193,DRV-6228,2025-03-11 11:05:32,Worli,Bandra,24.4845,77.5468,UberGo,9,8,683.96,1.9,3.7,4.7,Completed,,,26.0,Debit Card,1,True,Tuesday,11,Clear,Mumbai
+BK-20250712-096,CUST-2240,,2025-07-12 10:12:19,OMR,Tambaram,16.6481,77.74,UberPremier,10,20,36.97,1.3,3.4,4.7,Cancelled_Customer,Driver asked to cancel,541,2.3,Credit Card,,True,Saturday,10,Foggy,Chennai
+BK-20250818-097,CUST-4960,DRV-7547,2025-08-18 21:46:12,Kukatpally,Gachibowli,24.7677,80.0429,UberGo,10,20,359.82,1.3,3.1,5.0,Cancelled_Customer,Fare too high,75,21.5,UPI,,True,Monday,21,Cloudy,Hyderabad
+BK-20250220-098,CUST-2426,DRV-3321,2025-02-20 09:25:13,Gachibowli,Hitech City,17.7591,76.215,UberGo,7,5,201.35,1.0,3.8,4.7,Completed,,,18.3,UPI,5,True,Thursday,9,Clear,Hyderabad
+BK-20250628-099,CUST-4267,DRV-4798,2025-06-28 17:20:11,Thane,Worli,19.2403,74.1834,UberGo,13,16,241.26,1.0,3.2,4.8,Completed,,,20.0,Credit Card,1,True,Saturday,17,Clear,Mumbai
+BK-20251111-100,CUST-3404,DRV-7431,2025-11-11 07:11:03,Kukatpally,Hitech City,14.6163,75.4399,UberGo,13,21,58.22,1.0,4.6,3.6,Cancelled_Customer,Wrong pickup location entered,350,4.4,Debit Card,,True,Tuesday,7,Clear,Hyderabad
