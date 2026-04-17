@@ -92,6 +92,6 @@ async def monthly_report(month: int = 4, year: int = 2024):
             }
         }
     }
-app.include_router(receipts.router, prefix="/receipts", tags=["receipts"])
-app.include_router(expenses.router, prefix="/expenses", tags=["expenses"])
-app.include_router(reports.router, prefix="/reports", tags=["reports"])
+app.include_router(receipts.router, prefix="/api/receipts", tags=["receipts"])
+app.include_router(expenses.router, prefix="/api/expenses", tags=["expenses"])
+app.include_router(reports.router, prefix="/api/reports", tags=["reports"])
